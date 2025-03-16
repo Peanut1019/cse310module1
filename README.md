@@ -1,39 +1,35 @@
 # cse310module1
 # Overview
 
-{Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
+This project allowed me to learn how to use Cloud Firestore and Python to better understand how to use cloud databases.
 
-{Provide a description of the software that you wrote and how it integrates with a Cloud Database. Describe how to use your program.}
+The code allows the user to create a new profile, update the name of a profile, and delete an exgisting profile. One just modifies the values to what they want and run the code.
 
-{Describe your purpose for writing this software.}
+The purpose of the software is to expand my knowledge of databases and how the data can be manipulated with code.
 
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running, a walkthrough of the code, and a view of the cloud database.}
-
-[Software Demo Video](http://youtube.link.goes.here)
 
 # Cloud Database
 
-{Describe the cloud database you are using.}
+Cloud Firestore
 
-{Describe the structure of the database that you created.}
+Collection: module1 documents: profiles
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+Visual Studio Code
 
-{Describe the programming language that you used and any libraries.}
+Python, firebase_admin
 
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
 
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
+- Make CRUD Operations on Firebase Firestore in Python (https://clemfournier.medium.com/make-crud-operations-on-firebase-firestore-in-python-d51ab6aa98af)
+- Introduction to Google Firebase: Firestore using Python (https://www.analyticsvidhya.com/blog/2022/07/introduction-to-google-firebase-firestore-using-python/)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-
-- Item 1
-- Item 2
-- Item 3
+- Add user input
+- Add more updates (recents)
+- Add an option to delete a recent podacst.
+- Fix notifiactions
